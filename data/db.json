@@ -1,0 +1,104 @@
+{
+  "howToApi": [
+    {
+      "id": 1,
+      "title": "Sign in",
+      "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, Etquia quis?Lorem ipsum,  Etquia quis?"
+    },
+    {
+      "id": 2,
+      "title": "Add your bank Account",
+      "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit"
+    },
+    {
+      "id": 3,
+      "title": "Send payment request",
+      "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, consectetur adipisicing elit. Etquia quis?Lorem ipsum?"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "message": "",
+      "id": 4
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "message": "",
+      "id": 5
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "message": "",
+      "id": 6
+    }
+  ],
+  "serviceApi": [
+    {
+      "id": 1,
+      "logo": "assignment_returned",
+      "title": "Register for free.",
+      "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?"
+    },
+    {
+      "id": 2,
+      "logo": "perm_contact_calender",
+      "title": "Verify your identity ",
+      "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?"
+    },
+    {
+      "id": 3,
+      "logo": "receipt",
+      "title": "Add recipient's bank details.",
+      "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?"
+    },
+    {
+      "id": 4,
+      "logo": "payment",
+      "title": "Pay for your transfer.",
+      "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?"
+    },
+    {
+      "id": 5,
+      "logo": "local_atm",
+      "title": "choose an amount to send.",
+      "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?"
+    },
+    {
+      "id": 6,
+      "logo": "language",
+      "title": "That's it.",
+      "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?"
+    }
+  ],
+  "workApi": [
+    {
+      "id": 1,
+      "logo": "get_app",
+      "title": "Downlaod App",
+      "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?"
+    },
+    {
+      "id": 2,
+      "logo": "assignment_ind",
+      "title": "Complete the Instruction ",
+      "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?"
+    },
+    {
+      "id": 3,
+      "logo": "monetization_on",
+      "title": "Receive your funds",
+      "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?"
+    }
+  ]
+}

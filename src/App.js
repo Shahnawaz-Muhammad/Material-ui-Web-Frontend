@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from '../src/components/Navbar';
+import { ThemeProvider, createTheme } from '@material-ui/core/styles';
+import PageHeader from './components/PageHeader';
+import HowItWorks from './components/HowItWorks';
+import About from './components/About';
+import Services from './components/Services';
+// import Sign_up from './components/Sign_up';
 
-function App() {
+import Footer from './components/Footer';
+import Form from './components/Form';
+
+const App = () => {
+  const theme = createTheme({
+    typography: {
+      fontFamily: 'Poppins',
+    },
+    listItemText: {
+      fontFamily: 'Poppins',
+    },
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div>
+        <Navbar />
+        <PageHeader />
+        <HowItWorks />
+        <About />
+        <Services />
+        {/* <Sign_up /> */}
+        <Form />
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
